@@ -34,7 +34,7 @@ cd team3-study
 2. 본인 브랜치로 체크아웃 후 본인 이름으로 된 디렉토리 추가후 이동
 
 ```bash
-git checkout 3팀_혁
+git checkout 3팀_혁 (새로 생성할경우 -b 옵션)
 mkdir 3team_hyeok
 cd 3team_hyeok
 ```
@@ -66,4 +66,10 @@ remote:      https://github.com/nickwildee/team3-study/pull/new/3%ED%8C%80_%EC%A
 remote:
 ```
 
-6. 완료!
+6. 완료후
+
+```bash
+git branch -D 3팀_혁
+```
+
+매일 2번부터 새로 반복해주시면 됩니다.
