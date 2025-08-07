@@ -1,38 +1,37 @@
-2025-08-05
+# 2025-08-05
 
-오늘의 공부 내용 핵심 정리
+## 오늘의 공부 내용 핵심 정리
 
-1.공부 진도
+### 1. 공부 진도
  Git  Hub 시작하기~개발 협업 1번 토픽
 
- 2.핵심 내용 정리
-    (1) git push: -u(또는 --set-upstream) origin master : 
-   로컬 레포지토리의 내용을 처음으로 리모트 레포지토리에 올릴 때 사용
+### 2. 핵심 내용 정리
+    (1) git push: -u(또는 --set-upstream) origin master : 로컬 레포지토리의 내용을 처음으로 리모트 레포지토리에 올릴 때 사용
 
-   git push -u origin main 
+    git push -u origin main 
 
-    (2) git add . 
+    (1) git add . 
     :working directory 내의 수정사항이 있는 모든 파일들을 
     staging area에 올리는 커멘드 
     (강의에서 가장 많이 사용했던 커멘드)
    
-    (3) git commit -m "<수정 코멘트>"
+    (2) git commit -m "<수정 코멘트>"
     :staging area에 있는 내용을 커밋으로 남기기
 
-    (4) git diff(commit id "a") (commit id "b")
+    (3) git diff(commit id "a") (commit id "b")
     : 두 커밋 간의 차이 비교 
 
-    (5) git reset [옵션] [커밋 아이디] : 옵션에 따라 하는 작업이 달라짐(옵션을 생략하면 --mixed 옵션이 적용됨)
+    (4) git reset [옵션] [커밋 아이디] : 옵션에 따라 하는 작업이 달라짐(옵션을 생략하면 --mixed 옵션이 적용됨)
 
-    (1) HEAD가 특정 커밋을 가리키도록 이동시킴(--soft는 여기까지 수행)
+    (5) HEAD가 특정 커밋을 가리키도록 이동시킴(--soft는 여기까지 수행)
 
-    (2) staging area도 특정 커밋처럼 리셋(--mixed는 여기까지 수행)
+    (6) staging area도 특정 커밋처럼 리셋(--mixed는 여기까지 수행)
 
-    (3) working directory도 특정 커밋처럼 리셋(--hard는 여기까지 수행)
+    (7) working directory도 특정 커밋처럼 리셋(--hard는 여기까지 수행)
 
       이건 나중에 그림 캡쳐해서 보기쉽게 수정예정
    
-    git 에서 브랜치 사용하기 
+   ## git 에서 브랜치 사용하기 
 
     (1) git branch [새 브랜치 이름] : 새로운 브랜치를 생성
       
