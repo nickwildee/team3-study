@@ -17,7 +17,7 @@
   <div class="grid-item"> 어서오세요 </div>
   <div class="grid-item"> grid 입니다. </div>
   <div class="grid-item"> 안녕히가세요. </div>
-</div>
+</div>q
 
 
 ```
