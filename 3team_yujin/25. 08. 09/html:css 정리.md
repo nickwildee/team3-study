@@ -8,19 +8,19 @@
 
 * 인코딩 정하는 문법:   
   ```html
-  <meta charset="utf-8">
-    ```
+      <meta charset="utf-8">
+  ```
 
 ### 다양항 링크 동작
 
 * 이메일 보내기: mail.to  
   전화 걸기: tel
   ```html
-  <!-- test@example.com으로 이메일 보내기 -->
-  <a href="mailto:test@example.com">메일 보내기</a>
+    <!-- test@example.com으로 이메일 보내기 -->
+    <a href="mailto:test@example.com">메일 보내기</a>
 
-  <!-- 한국의 010-1234-0123으로 전화걸기 -->
-  <a href="tel:+821012340123">전화 걸기</a>
+    <!-- 한국의 010-1234-0123으로 전화걸기 -->
+    <a href="tel:+821012340123">전화 걸기</a>
   ```
 
 * URI 프래그먼트(URI Fragment):   
@@ -32,15 +32,16 @@
   * target="_self"(현재 창)
   * 특정한 창 - 최초 movie는 새창에서 열리고 그 다음은 모두 movie로 지정한 창에서 열림
     ```html
-    <a href="https://movie.naver.com" target="movie"><!-- 내가 원하는 창 -->
-    네이버 영화
-      </a>
-      <a href="https://movie.daum.net" target="movie"><!-- 내가 원하는 창 -->
-      다음 영화
-      </a>
-      <a href="https://imbd.com" target="movie"><!-- 내가 원하는 창 -->
-      imbd
-      </a>
+      <a href="https://movie.naver.com" target="movie"><!-- 내가 원하는 창 -->
+      네이버 영화
+        </a>
+        <a href="https://movie.daum.net" target="movie"><!-- 내가 원하는 창 -->
+        다음 영화
+        </a>
+        <a href="https://imbd.com" target="movie"><!-- 내가 원하는 창 -->
+        imbd
+        </a>
+    ```
 
 ### 텍스트 태그
 * `<em>`: 이텔릭체 처럼 보임, 강조   
@@ -73,8 +74,8 @@
 
 * **iframe: 인라인 프레임, html문서를 html문서에 넣을 때 사용함**
   ```html
-  <iframe src="banner.html" width="750" height="135">
-  </iframe>
+    <iframe src="banner.html" width="750" height="135">
+    </iframe>
   ```
 ### 폼
 ->스프린트 미션 2 완료 후 추가예정
@@ -90,7 +91,7 @@
 ## CSS
 ### 폰트
 * 구글폰트 사용법:   
-   1. 구글폰트 검색 후 검색창에 원하는 폰트 검색하기
+  1. 구글폰트 검색 후 검색창에 원하는 폰트 검색하기
   2. get font
   3. embed 코드 복사 후 <head>태그 아래 붙이기
     
@@ -114,9 +115,9 @@
 ### 배경 이미지
 
 * 이미지 넣는 법:   
-    ```css
+  ```css
     background-image: url('flowers.png');
-    ```
+  ```
   * 여러개 넣을 수도 있다. 가장 위에 넣은게 가장 위에 보임
 
 * 이미지 관련 설정   
